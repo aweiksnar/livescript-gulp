@@ -1,0 +1,36 @@
+{
+  "name": "livescript-gulp",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "gulp"
+  },
+  "browserify": {
+    "transform": [
+      "liveify"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^6.1.0",
+    "gulp": "^3.8.8",
+    "gulp-changed": "^1.0.0",
+    "gulp-concat": "^2.4.1",
+    "gulp-imagemin": "^1.1.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-notify": "^2.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-stylus": "^1.3.3",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "nib": "^1.0.4",
+    "node-static": "^0.7.6",
+    "pretty-hrtime": "^0.2.2",
+    "require-dir": "^0.1.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.0.0"
+  },
+  "dependencies": {
+    "liveify": "git://github.com/aweiksnar/liveify#update-livescript",
+    "prelude-ls": "^1.1.1"
+  }
+}
