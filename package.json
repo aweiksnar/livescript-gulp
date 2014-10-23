@@ -30,7 +30,7 @@
     "watchify": "^2.0.0"
   },
   "dependencies": {
-    "liveify": "git://github.com/aweiksnar/liveify#update-livescript",
+    "liveify": "1.3.1",
     "prelude-ls": "^1.1.1"
   }
 }
